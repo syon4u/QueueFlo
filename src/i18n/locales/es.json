@@ -1,0 +1,157 @@
+
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "notAvailable": "N/D",
+    "search": "Buscar",
+    "searching": "Buscando...",
+    "select": "Seleccionar",
+    "back": "Volver",
+    "actions": "Acciones",
+    "cancel": "Cancelar"
+  },
+  "customer": {
+    "viewHistory": "Ver Historial",
+    "history": "Historial de Visitas del Cliente",
+    "historyDescription": "Ver citas anteriores para este cliente",
+    "searchPlaceholder": "Buscar por nombre, correo o teléfono",
+    "noResults": "No se encontraron clientes",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre completo",
+    "contact": "Contacto",
+    "phone": "Número de Teléfono",
+    "phonePlaceholder": "Tu número de teléfono",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "Tu dirección de correo electrónico",
+    "searchError": "Error al buscar clientes",
+    "historyError": "Error al cargar el historial del cliente",
+    "noAppointmentHistory": "No se encontró historial de citas",
+    "createNew": "Crear Nuevo",
+    "searchResults": "Se encontraron {{count}} cliente(s)",
+    "searchInstructions": "Busca clientes existentes o crea uno nuevo"
+  },
+  "appointments": {
+    "newAppointment": "Nueva Cita",
+    "scheduleDescription": "Completa el formulario para programar una nueva cita",
+    "schedule": "Programar Cita",
+    "steps": {
+      "title": "Programar una Cita",
+      "description": "Sigue los pasos a continuación para programar tu cita"
+    },
+    "scheduledTime": "Hora Programada",
+    "date": "Fecha",
+    "service": "Servicio",
+    "status": {
+      "scheduled": "Programada",
+      "checked_in": "Registrada",
+      "in_progress": "En Progreso",
+      "completed": "Completada",
+      "cancelled": "Cancelada",
+      "no_show": "No Presentó"
+    },
+    "checkIn": "Registrar",
+    "startService": "Iniciar",
+    "complete": "Completar",
+    "cancel": "Cancelar",
+    "sendReminder": "Recordatorio",
+    "statusUpdated": "Estado de la cita actualizado",
+    "statusUpdateError": "Error al actualizar el estado de la cita",
+    "reasonForVisit": "Motivo de la visita",
+    "reasonPlaceholder": "Ingresa el motivo de tu visita",
+    "notes": "Notas",
+    "notesPlaceholder": "Cualquier solicitud especial o notas para tu cita",
+    "customer": "Cliente",
+    "createError": "Error al programar la cita",
+    "selectDate": "Por favor selecciona una fecha",
+    "selectDateAndCustomer": "Por favor selecciona una fecha y un cliente"
+  },
+  "queue": {
+    "title": "Gestión de Cola",
+    "position": "Tu posición en la cola",
+    "estimatedWait": "Tiempo de espera estimado",
+    "minutes": "minutos",
+    "joinQueue": "Unirse a la Cola",
+    "leaveQueue": "Salir de la Cola",
+    "currentlyServing": "Atendiendo Actualmente",
+    "waitingCustomers": "Clientes en Espera",
+    "callNext": "Llamar Siguiente",
+    "addToQueue": "Añadir a la Cola",
+    "checkIn": "Registrarse",
+    "manageQueue": "Administrar Cola",
+    "queueClosed": "La cola está cerrada actualmente",
+    "pauseQueue": "Pausar Cola",
+    "resumeQueue": "Reanudar Cola",
+    "emptyQueue": "No hay clientes en la cola",
+    "serviceTime": "Tiempo promedio de servicio",
+    "totalWaiting": "Total de clientes en espera"
+  },
+  "staff": {
+    "dashboard": "Panel de Personal",
+    "managementDescription": "Administrar citas y la cola de clientes",
+    "queueManagement": "Cola",
+    "appointments": "Citas",
+    "statistics": "Estadísticas",
+    "settings": "Configuración",
+    "activeAppointments": "Citas Activas",
+    "settingsDescription": "Configura tus preferencias y ajustes de notificaciones",
+    "schedule": "Mi Horario",
+    "status": {
+      "title": "Estado del Personal",
+      "description": "Actualiza tu estado de disponibilidad actual",
+      "available": "Disponible",
+      "busy": "Ocupado",
+      "break": "En Descanso",
+      "offline": "Desconectado",
+      "takeBreak": "Tomar un Descanso",
+      "breakDescription": "Establece tu estado en descanso y agrega notas de entrega",
+      "breakDuration": "Duración del Descanso (min)",
+      "handoverNotes": "Notas de Entrega",
+      "handoverPlaceholder": "Notas para colegas mientras estás ausente",
+      "startBreak": "Iniciar Descanso",
+      "endBreak": "Finalizar Descanso"
+    },
+    "setStatus": "Actualizar Estado",
+    "statusUpdated": "Tu estado ha sido actualizado",
+    "viewHistory": "Ver Historial del Cliente",
+    "blackoutPeriod": {
+      "enable": "Habilitar Período de Bloqueo",
+      "disable": "Deshabilitar Período de Bloqueo",
+      "active": "Período de Bloqueo Activo",
+      "description": "Dejar de aceptar nuevas citas hasta resolver la acumulación",
+      "enabled": "Período de bloqueo habilitado",
+      "disabled": "Período de bloqueo deshabilitado",
+      "reason": "Razón del Bloqueo",
+      "reasonPlaceholder": "¿Por qué estás implementando un período de bloqueo?",
+      "estimatedEndTime": "Hora Estimada de Finalización",
+      "estimatedEnd": "Hora estimada de finalización",
+      "confirm": "Habilitar Período de Bloqueo"
+    },
+    "role": "Miembro del Personal"
+  },
+  "admin": {
+    "dashboard": "Panel de Administración",
+    "role": "Administrador"
+  },
+  "auth": {
+    "logout": "Cerrar Sesión"
+  },
+  "profile": {
+    "title": "Perfil"
+  },
+  "performance": {
+    "dashboardTitle": "Panel de Rendimiento",
+    "dashboardDescription": "Ver métricas de rendimiento e informes",
+    "reports": "Informes de Rendimiento",
+    "staffPerformance": "Rendimiento del Personal",
+    "serviceMetrics": "Métricas de Servicios",
+    "locationMetrics": "Métricas de Ubicaciones",
+    "exportReport": "Exportar Informe",
+    "comingSoon": "Esta función estará disponible pronto"
+  },
+  "unauthorized": {
+    "title": "Acceso No Autorizado",
+    "description": "No tienes permisos para ver esta página"
+  }
+}

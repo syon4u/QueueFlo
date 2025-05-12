@@ -1,0 +1,157 @@
+
+{
+  "common": {
+    "loading": "Chajman...",
+    "error": "Erè",
+    "success": "Siksè",
+    "notAvailable": "Pa disponib",
+    "search": "Chèche",
+    "searching": "Ap chèche...",
+    "select": "Seleksyone",
+    "back": "Retounen",
+    "actions": "Aksyon",
+    "cancel": "Anile"
+  },
+  "customer": {
+    "viewHistory": "Gade Istorik",
+    "history": "Istorik Vizit Kliyan",
+    "historyDescription": "Gade randevou anvan yo pou kliyan sa a",
+    "searchPlaceholder": "Chèche pa non, imèl oswa telefòn",
+    "noResults": "Pa gen kliyan ki jwenn",
+    "name": "Non",
+    "namePlaceholder": "Non konplè ou",
+    "contact": "Kontak",
+    "phone": "Nimewo Telefòn",
+    "phonePlaceholder": "Nimewo telefòn ou",
+    "email": "Imèl",
+    "emailPlaceholder": "Adrès imèl ou",
+    "searchError": "Erè pandan n ap chèche kliyan yo",
+    "historyError": "Erè pandan n ap chaje istorik kliyan",
+    "noAppointmentHistory": "Pa gen istorik randevou ki jwenn",
+    "createNew": "Kreye Nouvo",
+    "searchResults": "Te jwenn {{count}} kliyan(s)",
+    "searchInstructions": "Chèche kliyan ki egziste deja oswa kreye yon nouvo"
+  },
+  "appointments": {
+    "newAppointment": "Nouvo Randevou",
+    "scheduleDescription": "Ranpli fòm nan pou pwograme yon nouvo randevou",
+    "schedule": "Pwograme Randevou",
+    "steps": {
+      "title": "Pwograme yon Randevou",
+      "description": "Swiv etap sa yo pou pwograme randevou ou"
+    },
+    "scheduledTime": "Lè Pwograme",
+    "date": "Dat",
+    "service": "Sèvis",
+    "status": {
+      "scheduled": "Pwograme",
+      "checked_in": "Tcheke Antre",
+      "in_progress": "An Pwogre",
+      "completed": "Konplete",
+      "cancelled": "Anile",
+      "no_show": "Pa Prezante"
+    },
+    "checkIn": "Tcheke Antre",
+    "startService": "Kòmanse",
+    "complete": "Konplete",
+    "cancel": "Anile",
+    "sendReminder": "Rapèl",
+    "statusUpdated": "Estati randevou mizajou",
+    "statusUpdateError": "Te echwe pou mizajou estati randevou",
+    "reasonForVisit": "Rezon pou vizit",
+    "reasonPlaceholder": "Antre rezon pou vizit ou",
+    "notes": "Nòt",
+    "notesPlaceholder": "Nenpòt demand espesyal oswa nòt pou randevou ou",
+    "customer": "Kliyan",
+    "createError": "Te echwe pou pwograme randevou",
+    "selectDate": "Tanpri chwazi yon dat",
+    "selectDateAndCustomer": "Tanpri chwazi yon dat ak kliyan"
+  },
+  "queue": {
+    "title": "Jesyon Fil",
+    "position": "Pozisyon ou nan fil",
+    "estimatedWait": "Tan datant estime",
+    "minutes": "minit",
+    "joinQueue": "Antre nan Fil",
+    "leaveQueue": "Kite Fil",
+    "currentlyServing": "Ap Sèvi Kounye a",
+    "waitingCustomers": "Kliyan ki Ap Tann",
+    "callNext": "Rele Pwochen",
+    "addToQueue": "Ajoute nan Fil",
+    "checkIn": "Tcheke Antre",
+    "manageQueue": "Jere Fil",
+    "queueClosed": "Fil aktyèlman fèmen",
+    "pauseQueue": "Poz Fil",
+    "resumeQueue": "Reprann Fil",
+    "emptyQueue": "Pa gen kliyan nan fil la",
+    "serviceTime": "Tan sèvis mwayen",
+    "totalWaiting": "Total kliyan k ap tann"
+  },
+  "staff": {
+    "dashboard": "Tablo Pèsonèl",
+    "managementDescription": "Jere randevou ak fil kliyan",
+    "queueManagement": "Fil",
+    "appointments": "Randevou",
+    "statistics": "Estatistik",
+    "settings": "Anviwònman",
+    "activeAppointments": "Randevou Aktif",
+    "settingsDescription": "Konfigire preferans ou ak anviwònman notifikasyon",
+    "schedule": "Orè Mwen",
+    "status": {
+      "title": "Estati Pèsonèl",
+      "description": "Mizajou estati disponibilite aktyèl ou",
+      "available": "Disponib",
+      "busy": "Okipe",
+      "break": "Nan Poz",
+      "offline": "Dekonekte",
+      "takeBreak": "Pran yon Poz",
+      "breakDescription": "Mete estati ou nan poz ak ajoute nòt randevou",
+      "breakDuration": "Dire Poz (min)",
+      "handoverNotes": "Nòt Tranzisyon",
+      "handoverPlaceholder": "Nòt pou kolèg yo pandan w absent",
+      "startBreak": "Kòmanse Poz",
+      "endBreak": "Fini Poz"
+    },
+    "setStatus": "Mizajou Estati",
+    "statusUpdated": "Estati ou te mizajou",
+    "viewHistory": "Gade Istorik Kliyan",
+    "blackoutPeriod": {
+      "enable": "Aktive Peryòd Blakawout",
+      "disable": "Dezaktive Peryòd Blakawout",
+      "active": "Peryòd Blakawout Aktif",
+      "description": "Sispann aksepte nouvo randevou jiskaske retade yo klere",
+      "enabled": "Peryòd blakawout aktive",
+      "disabled": "Peryòd blakawout dezaktive",
+      "reason": "Rezon pou Blakawout",
+      "reasonPlaceholder": "Poukisa w ap enplemante yon peryòd blakawout?",
+      "estimatedEndTime": "Lè Fen Estime",
+      "estimatedEnd": "Lè fen estime",
+      "confirm": "Aktive Peryòd Blakawout"
+    },
+    "role": "Manm Pèsonèl"
+  },
+  "admin": {
+    "dashboard": "Tablo Admin",
+    "role": "Administratè"
+  },
+  "auth": {
+    "logout": "Dekonekte"
+  },
+  "profile": {
+    "title": "Pwofil"
+  },
+  "performance": {
+    "dashboardTitle": "Tablo Pèfòmans",
+    "dashboardDescription": "Gade metrik pèfòmans ak rapò",
+    "reports": "Rapò Pèfòmans",
+    "staffPerformance": "Pèfòmans Pèsonèl",
+    "serviceMetrics": "Metrik Sèvis",
+    "locationMetrics": "Metrik Lokasyon",
+    "exportReport": "Ekspòte Rapò",
+    "comingSoon": "Karakteristik sa a ap vini byento"
+  },
+  "unauthorized": {
+    "title": "Aksè San Otorizasyon",
+    "description": "Ou pa gen pèmisyon pou wè paj sa a"
+  }
+}

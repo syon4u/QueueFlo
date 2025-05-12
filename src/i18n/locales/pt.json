@@ -1,0 +1,157 @@
+
+{
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "notAvailable": "N/D",
+    "search": "Buscar",
+    "searching": "Buscando...",
+    "select": "Selecionar",
+    "back": "Voltar",
+    "actions": "Ações",
+    "cancel": "Cancelar"
+  },
+  "customer": {
+    "viewHistory": "Ver Histórico",
+    "history": "Histórico de Visitas do Cliente",
+    "historyDescription": "Ver compromissos anteriores para este cliente",
+    "searchPlaceholder": "Buscar por nome, e-mail ou telefone",
+    "noResults": "Nenhum cliente encontrado",
+    "name": "Nome",
+    "namePlaceholder": "Seu nome completo",
+    "contact": "Contato",
+    "phone": "Número de Telefone",
+    "phonePlaceholder": "Seu número de telefone",
+    "email": "E-mail",
+    "emailPlaceholder": "Seu endereço de e-mail",
+    "searchError": "Erro ao buscar clientes",
+    "historyError": "Erro ao carregar histórico do cliente",
+    "noAppointmentHistory": "Nenhum histórico de compromissos encontrado",
+    "createNew": "Criar Novo",
+    "searchResults": "Encontrado {{count}} cliente(s)",
+    "searchInstructions": "Busque clientes existentes ou crie um novo"
+  },
+  "appointments": {
+    "newAppointment": "Novo Compromisso",
+    "scheduleDescription": "Preencha o formulário para agendar um novo compromisso",
+    "schedule": "Agendar Compromisso",
+    "steps": {
+      "title": "Agendar um Compromisso",
+      "description": "Siga os passos abaixo para agendar seu compromisso"
+    },
+    "scheduledTime": "Hora Agendada",
+    "date": "Data",
+    "service": "Serviço",
+    "status": {
+      "scheduled": "Agendado",
+      "checked_in": "Registrado",
+      "in_progress": "Em Andamento",
+      "completed": "Concluído",
+      "cancelled": "Cancelado",
+      "no_show": "Não Compareceu"
+    },
+    "checkIn": "Registrar",
+    "startService": "Iniciar",
+    "complete": "Concluir",
+    "cancel": "Cancelar",
+    "sendReminder": "Lembrete",
+    "statusUpdated": "Status do compromisso atualizado",
+    "statusUpdateError": "Falha ao atualizar status do compromisso",
+    "reasonForVisit": "Motivo da visita",
+    "reasonPlaceholder": "Insira o motivo da sua visita",
+    "notes": "Notas",
+    "notesPlaceholder": "Quaisquer solicitações especiais ou notas para seu compromisso",
+    "customer": "Cliente",
+    "createError": "Falha ao agendar compromisso",
+    "selectDate": "Por favor selecione uma data",
+    "selectDateAndCustomer": "Por favor selecione uma data e um cliente"
+  },
+  "queue": {
+    "title": "Gerenciamento de Fila",
+    "position": "Sua posição na fila",
+    "estimatedWait": "Tempo de espera estimado",
+    "minutes": "minutos",
+    "joinQueue": "Entrar na Fila",
+    "leaveQueue": "Sair da Fila",
+    "currentlyServing": "Atualmente Atendendo",
+    "waitingCustomers": "Clientes em Espera",
+    "callNext": "Chamar Próximo",
+    "addToQueue": "Adicionar à Fila",
+    "checkIn": "Registrar",
+    "manageQueue": "Gerenciar Fila",
+    "queueClosed": "A fila está atualmente fechada",
+    "pauseQueue": "Pausar Fila",
+    "resumeQueue": "Retomar Fila",
+    "emptyQueue": "Não há clientes na fila",
+    "serviceTime": "Tempo médio de serviço",
+    "totalWaiting": "Total de clientes em espera"
+  },
+  "staff": {
+    "dashboard": "Painel do Funcionário",
+    "managementDescription": "Gerenciar compromissos e a fila de clientes",
+    "queueManagement": "Fila",
+    "appointments": "Compromissos",
+    "statistics": "Estatísticas",
+    "settings": "Configurações",
+    "activeAppointments": "Compromissos Ativos",
+    "settingsDescription": "Configure suas preferências e configurações de notificação",
+    "schedule": "Meu Cronograma",
+    "status": {
+      "title": "Status do Funcionário",
+      "description": "Atualize seu status de disponibilidade atual",
+      "available": "Disponível",
+      "busy": "Ocupado",
+      "break": "Em Pausa",
+      "offline": "Desconectado",
+      "takeBreak": "Fazer uma Pausa",
+      "breakDescription": "Defina seu status como em pausa e adicione notas de transição",
+      "breakDuration": "Duração da Pausa (min)",
+      "handoverNotes": "Notas de Transição",
+      "handoverPlaceholder": "Notas para colegas enquanto estiver ausente",
+      "startBreak": "Iniciar Pausa",
+      "endBreak": "Finalizar Pausa"
+    },
+    "setStatus": "Atualizar Status",
+    "statusUpdated": "Seu status foi atualizado",
+    "viewHistory": "Ver Histórico do Cliente",
+    "blackoutPeriod": {
+      "enable": "Habilitar Período de Bloqueio",
+      "disable": "Desabilitar Período de Bloqueio",
+      "active": "Período de Bloqueio Ativo",
+      "description": "Parar de aceitar novos compromissos até que o acúmulo seja resolvido",
+      "enabled": "Período de bloqueio habilitado",
+      "disabled": "Período de bloqueio desabilitado",
+      "reason": "Motivo do Bloqueio",
+      "reasonPlaceholder": "Por que você está implementando um período de bloqueio?",
+      "estimatedEndTime": "Horário Estimado de Término",
+      "estimatedEnd": "Horário estimado de término",
+      "confirm": "Habilitar Período de Bloqueio"
+    },
+    "role": "Membro da Equipe"
+  },
+  "admin": {
+    "dashboard": "Painel do Administrador",
+    "role": "Administrador"
+  },
+  "auth": {
+    "logout": "Sair"
+  },
+  "profile": {
+    "title": "Perfil"
+  },
+  "performance": {
+    "dashboardTitle": "Painel de Desempenho",
+    "dashboardDescription": "Visualize métricas de desempenho e relatórios",
+    "reports": "Relatórios de Desempenho",
+    "staffPerformance": "Desempenho da Equipe",
+    "serviceMetrics": "Métricas de Serviço",
+    "locationMetrics": "Métricas de Localização",
+    "exportReport": "Exportar Relatório",
+    "comingSoon": "Este recurso estará disponível em breve"
+  },
+  "unauthorized": {
+    "title": "Acesso Não Autorizado",
+    "description": "Você não tem permissão para visualizar esta página"
+  }
+}
